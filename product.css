@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/*===================CABECALHO===========*/
+header {
+  background: #b8afb0;
+  padding: 1.2rem 0;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+/*============NAVEGAÇÃO===============*/
+
+nav {
+  position: absolute;
+  top: 6rem;
+  right: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 0 0 1rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: .6s;
+}
+
+nav ul li a:hover {
+  color: #3c302c91;
+  text-decoration: underline;
+}
+
+/* ================MAIN=============*/
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: .9rem;
+}
+
+.produtos h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.produtos .preco {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: .6rem;
+}
+
+.descricao {
+  font-size: 1.2rem;
+  margin-top: .6rem;
+}
+
+/*============FOOTER=============*/
+footer {
+  background: url("assets/bg.jpg");
+  text-align: center;
+  padding: 2.5rem 0;
+  color: white;
+}

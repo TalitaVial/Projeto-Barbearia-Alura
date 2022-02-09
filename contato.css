@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=================cabecalho=============*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #b8afb0;
+  padding: 1.2rem 0;
+}
+
+header ul {
+  margin-right: 15rem;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: rgb(129, 123, 114);
+}
+
+header ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*====================main========*/
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.dados {
+  display: block;
+  margin: 0 0 20px;
+  padding: 6px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 10px 5px;
+}
+
+.enviar {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 40%;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: rgba(255, 166, 0, 0.808);
+  transform: scale(1.1) rotate(0.2deg);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background-color: #b8afb0;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: solid 1px black;
+  padding: 8px 15px;
+}
+
+/*==============rodapé============*/
+footer {
+  background: url('assets/bg.jpg');
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 2.5rem 0;
+}

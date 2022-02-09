@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="shortcut icon" href="assets/logo-branco.png" type="image/x-icon">
+  <link rel="stylesheet" href="contato.css">
+  <title>Contato - Barber.Alura</title>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo Barber Alura">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Serviços</a></li>
+      <li><a href="contato.html">contato</a></li>
+    </ul>
+  </header>
+  <main>
+    <form action="">
+      <label for="nome-sobre">Nome e sobrenome:</label>
+      <input class="dados" type="text" id="nome-sobre">
+      <label for="mail" required>E-mail:</label>
+      <input class="dados" type="email" name="mailto" id="mail" placeholder="email@dominio.com.br" required>
+      <label for="tel">Telefone</label>
+      <input class="dados" type="tel" name="phone" id="tel" placeholder="(XX)XXXX-XXXX" required>
+      <label for="msg">Deixe sua mensagem</label>
+      <textarea class="dados" name="mensagem" id="msg" cols="60" rows="10" required></textarea>
+
+      <fieldset>
+        <legend>Como Prefere nosso contato?</legend>
+        <label for="e-mail"><input class="checkbox" type="radio" name="contact" id="e-mail">E-mail</label>
+        <label for="telefone"><input class="checkbox" type="radio" name="contact" id="telefone">Telefone</label>
+        
+        <label for="whatsapp"><input class="checkbox" type="radio" name="contact" id="whatsapp" checked>WhatsApp</label>
+      </fieldset>
+      <fieldset>
+        <legend>Qual horário prefere ser atendido?</legend>
+        <select name="contact" id="hours">
+          <option value="hours">manhã</option>
+          <option value="hours">tarde</option>
+          <option value="hours">noite</option>
+        </select>
+        <label><input class="checkbox" type="checkbox" checked>Quer receber atualizações no e-mail?</input></label>
+      </fieldset>
+      <input class="enviar" type="submit" value="Enviar Formulário">
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Segunda</td>
+          <td>08h ~ 20h</td>
+        </tr>
+        <tr>
+          <td>Quarta</td>
+          <td>08h ~ 20h</td>
+        </tr>
+        <tr>
+          <td>Sexta</td>
+          <td>08h ~ 20h</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <img src="assets/logo-branco.png" alt="rodape">
+    <p>&copy;Barber.Alura - 2021</p>
+  </footer>
+</body>
+</html>
