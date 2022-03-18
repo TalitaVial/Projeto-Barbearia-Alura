@@ -32,7 +32,7 @@ nav {
   right: 0;
 }
 
-.caixa{ 
+.caixa {
   position: relative;
   width: 60rem;
   margin: 0 auto;
@@ -43,41 +43,49 @@ ul li {
   margin: 0 0 0 1rem;
 }
 
-ul li a:hover{
+ul li a:hover {
   color: #3c302c91;
   text-decoration: underline;
 }
 
 /*================ imagem principal ===========*/
-#barbearia img {
-  margin-top: .13rem;
+.banner img {
   width: 100%;
 }
 
-/*============main=========*/
-main h1 {
-  font-size: 3rem;
-  font-family: sans-serif;
-  text-align: center;
-  margin-top: 1rem;
+.principal {
+  margin: 0 auto;
+  width: 70%;
 }
+
+.texto-central {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.utensilios {
+  width: 360px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.principal p {
+  margin: 0 0 1em;
+}
+
+/*============main=========*/
 
 main p {
   font-size: 1.4rem;
   text-align: justify;
   margin: 0 1rem;
-
 }
 
 main {
   background: #b8afb0;
   margin-top: 0;
   padding: 1rem 1rem 3rem 0;
-}
-
-#mission {
-  text-align: center;
-  font-style: italic;
 }
 
 /* =============BENEFICIOS=============*/
@@ -94,7 +102,7 @@ h3 {
   margin-left: 15rem;
   font-family: sans-serif;
   font-size: 1.8rem;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
 #beneficios ul {
@@ -102,10 +110,7 @@ h3 {
 }
 
 #imagem-barber {
-  display: block;
-  margin-top: -15rem;
-  margin-bottom: 5rem;
-  margin-left: 50rem;
+  width: 50%;
 }
 
 #imagem-barber img {
@@ -125,8 +130,7 @@ footer {
   #beneficios {
     flex-wrap: wrap;
     text-align: center;
-}
-
+  }
 }
 
 /*=============RESPONSIVO================*/
@@ -134,17 +138,14 @@ footer {
 @media (max-width: 600px) {
   header {
     width: 100%;
-   
   }
 
   button#mobile {
     display: block;
- 
   }
 
-  nav#navigation ul li{
+  nav#navigation ul li {
     display: block;
-
   }
 
   nav#navigation {
@@ -156,7 +157,6 @@ footer {
     margin-right: 20rem;
     margin-top: 11rem;
     background: gray;
-  
   }
 
   div.caixa {

@@ -31,7 +31,7 @@ nav a {
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 nav ul li a:hover {
@@ -44,7 +44,6 @@ nav ul li a:hover {
   width: 940px;
   margin: 0 auto;
   padding: 50px 0;
-  
 }
 
 .produtos li {
@@ -56,7 +55,7 @@ nav ul li a:hover {
   padding: 30px 20px;
   box-sizing: border-box;
   border: 3px solid black;
-  border-radius: .9rem;
+  border-radius: 0.9rem;
 }
 
 .produtos h2 {
@@ -67,17 +66,17 @@ nav ul li a:hover {
 .produtos .preco {
   font-size: 1.3rem;
   font-weight: bold;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 .descricao {
   font-size: 1.2rem;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 /*============FOOTER=============*/
 footer {
-  background: url("assets/bg.jpg");
+  background: url('assets/bg.jpg');
   text-align: center;
   padding: 2.5rem 0;
   color: white;
